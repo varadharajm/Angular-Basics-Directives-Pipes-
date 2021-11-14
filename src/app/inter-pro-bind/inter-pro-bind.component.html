@@ -1,0 +1,23 @@
+<div>
+  <p>{{FirstName +' '+LastName}}</p>
+  <p>{{ 'FirsrName : '+FirstName +', LastName : '+ LastName}}</p>
+  <p>{{ 10*5}}</p>
+  <p>Bonus = {{salary *10}}</p>
+  <p>{{FinalName ? FinalName : 'No Data'}}</p>
+  <p>{{Name()}}</p>
+  <div>
+    <img src="{{ImageUrl}}" alt="" srcset="" height="500" width="600">
+  </div>
+</div>
+<div>property-bindibng</div>
+<div>
+  <span [innerHTML]='title'></span>
+  <img [src]='ImageUrl1' alt=""  height="500" width="600">
+</div>
+<div> 
+  <button [disabled]= 'InDisabledClick'>Click here</button>
+  <h1>{{ MaliciousData}}</h1>
+  <div [innerHTML] = 'MaliciousData'>
+
+  </div>
+</div>

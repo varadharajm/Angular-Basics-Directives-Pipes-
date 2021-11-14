@@ -1,0 +1,11 @@
+<p>cla-bind works!</p>
+
+<div>
+  <button  [class]='ClassesToApply'>Click me</button>
+  <div>
+    <button class="colorClass" [class.boldClass]="!ApplyBoldClass">Click me</button>
+  </div>
+  <div>
+    <button class="colorClass" [ngClass] = "AddCSSClasses()"> button to on</button>
+  </div>
+</div>
